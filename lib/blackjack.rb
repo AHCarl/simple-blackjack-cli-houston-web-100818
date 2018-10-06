@@ -53,7 +53,8 @@ end
 
 def invalid_command
   # code invalid_command here
-  if get_user_input != 'h' || get_user_input != 's' || get_user_input != "exit"
+  input = get_user_input
+  if input != 'h' || input != 's' || input != "exit"
     puts "Please enter a valid command"
   end
   prompt_user
