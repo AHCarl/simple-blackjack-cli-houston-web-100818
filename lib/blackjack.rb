@@ -39,12 +39,16 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   get_user_input
+  if 
   
 end
 
 def invalid_command
   # code invalid_command here
-
+  if gets.chomp != 'h' || gets.chomp != 's'
+    puts "Please enter a valid command"
+  end
+  prompt_user
 end
 
 #####################################################
