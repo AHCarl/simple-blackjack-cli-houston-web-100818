@@ -45,7 +45,7 @@ def hit?(card_total)
     card_total += deal_card
   else
     invalid_command
-    
+  end
   if card_total > 21
     end_game
   end
