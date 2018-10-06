@@ -63,5 +63,11 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  loop do 
+    hit?
+  end
+    invalid_command
 end
     
